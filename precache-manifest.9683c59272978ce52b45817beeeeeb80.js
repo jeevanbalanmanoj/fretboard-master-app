@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e935e5eea6798bda520ed05c04c0423f",
+    "revision": "c1a3d737c628a960e03cca4b86e9b2ab",
     "url": "/fretboard-master-app/index.html"
   },
   {
-    "revision": "c0477ad1ca4a0aabd8e4",
+    "revision": "170ab38baba1724ff5df",
     "url": "/fretboard-master-app/static/css/main.5f361e03.chunk.css"
   },
   {
-    "revision": "de686b9c6127d0220d79",
-    "url": "/fretboard-master-app/static/js/2.cdc6558b.chunk.js"
+    "revision": "e9e5cde50d412c2fb2e4",
+    "url": "/fretboard-master-app/static/js/2.50c27ac4.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/fretboard-master-app/static/js/2.cdc6558b.chunk.js.LICENSE.txt"
+    "url": "/fretboard-master-app/static/js/2.50c27ac4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c0477ad1ca4a0aabd8e4",
-    "url": "/fretboard-master-app/static/js/main.1836b265.chunk.js"
+    "revision": "170ab38baba1724ff5df",
+    "url": "/fretboard-master-app/static/js/main.f1baa9aa.chunk.js"
   },
   {
     "revision": "43aa320f73a179be627d",
