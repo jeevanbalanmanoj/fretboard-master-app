@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/fretboard-master-app/static/css/main.5f361e03.chunk.css",
+    "main.js": "/fretboard-master-app/static/js/main.2c7be7f8.chunk.js",
+    "main.js.map": "/fretboard-master-app/static/js/main.2c7be7f8.chunk.js.map",
+    "runtime-main.js": "/fretboard-master-app/static/js/runtime-main.07e8e3b3.js",
+    "runtime-main.js.map": "/fretboard-master-app/static/js/runtime-main.07e8e3b3.js.map",
+    "static/js/2.4ea800f7.chunk.js": "/fretboard-master-app/static/js/2.4ea800f7.chunk.js",
+    "static/js/2.4ea800f7.chunk.js.map": "/fretboard-master-app/static/js/2.4ea800f7.chunk.js.map",
+    "index.html": "/fretboard-master-app/index.html",
+    "precache-manifest.80e314cf7a9ea904938afde46a7e3859.js": "/fretboard-master-app/precache-manifest.80e314cf7a9ea904938afde46a7e3859.js",
+    "service-worker.js": "/fretboard-master-app/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/fretboard-master-app/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.4ea800f7.chunk.js.LICENSE.txt": "/fretboard-master-app/static/js/2.4ea800f7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.07e8e3b3.js",
+    "static/js/2.4ea800f7.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.2c7be7f8.chunk.js"
+  ]
+}
