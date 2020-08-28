@@ -1,12 +1,15 @@
 import React from "react";
+import Header from "./components/layouts/Header.js";
+import Note from "./components/pages/Note.js";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>Are you ready to be a fretboard master? Watch this space!</p>
-      </header>
+      <div className="container">
+        <Header />
+        <Note />
+      </div>
     </div>
   );
 }
