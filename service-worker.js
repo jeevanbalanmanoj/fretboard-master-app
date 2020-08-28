@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/fretboard-master-app/precache-manifest.b38e9e066fc97e2cb1dae97d28341ec2.js"
+  "/fretboard-master-app/precache-manifest.43446d699b27b2e25ae2b9b7fa2bf94b.js"
 );
 
 self.addEventListener('message', (event) => {
