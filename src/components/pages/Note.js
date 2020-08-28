@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import PropTypes from "prop-types";
 
 export class Note extends Component {
   state = {
@@ -9,7 +10,7 @@ export class Note extends Component {
     setInterval(
       () =>
         this.setState({
-          note: getRandomNaturalNote(),
+          note: getRandomNote(this.props.isChromatic),
           stringNo: randomInteger(1, 6),
         }),
       5000
@@ -30,13 +31,33 @@ export class Note extends Component {
   }
 }
 const naturalNotes = ["C", "D", "E", "F", "G", "A", "B"];
+const chromaticNotes = [
+  "C",
+  "C#",
+  "D",
+  "D#",
+  "E",
+  "F",
+  "F#",
+  "G",
+  "G#",
+  "A",
+  "A#",
+  "B",
+];
+function getRandomNote(isChromatic) {
+  return isChromatic ? getRandomChromaticNote() : getRandomNaturalNote();
+}
 function getRandomNaturalNote() {
   return naturalNotes[randomInteger(0, 6)];
 }
+function getRandomChromaticNote() {
+  return chromaticNotes[randomInteger(0, 11)];
+}
+
+// Returns a random number between min(included) and max (included)
 function randomInteger(min, max) {
-  const randomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
-  console.log(randomNumber);
-  return randomNumber;
+  return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 const noteStyle = {
   color: "black",
@@ -44,5 +65,8 @@ const noteStyle = {
   textAlign: "center",
   padding: "10px",
 };
-
+// PropTypes
+Note.propTypes = {
+  isChromatic: PropTypes.bool.isRequired,
+};
 export default Note;
