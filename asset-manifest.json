@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/fretboard-master-app/static/css/main.5f361e03.chunk.css",
-    "main.js": "/fretboard-master-app/static/js/main.dadeaa1b.chunk.js",
-    "main.js.map": "/fretboard-master-app/static/js/main.dadeaa1b.chunk.js.map",
+    "main.js": "/fretboard-master-app/static/js/main.1836b265.chunk.js",
+    "main.js.map": "/fretboard-master-app/static/js/main.1836b265.chunk.js.map",
     "runtime-main.js": "/fretboard-master-app/static/js/runtime-main.07e8e3b3.js",
     "runtime-main.js.map": "/fretboard-master-app/static/js/runtime-main.07e8e3b3.js.map",
     "static/js/2.cdc6558b.chunk.js": "/fretboard-master-app/static/js/2.cdc6558b.chunk.js",
     "static/js/2.cdc6558b.chunk.js.map": "/fretboard-master-app/static/js/2.cdc6558b.chunk.js.map",
     "index.html": "/fretboard-master-app/index.html",
-    "precache-manifest.def51bf332313340a4d5b66aab82b32d.js": "/fretboard-master-app/precache-manifest.def51bf332313340a4d5b66aab82b32d.js",
+    "precache-manifest.8f4b6e7122c3ed2af74581d9e8fb4732.js": "/fretboard-master-app/precache-manifest.8f4b6e7122c3ed2af74581d9e8fb4732.js",
     "service-worker.js": "/fretboard-master-app/service-worker.js",
     "static/css/main.5f361e03.chunk.css.map": "/fretboard-master-app/static/css/main.5f361e03.chunk.css.map",
     "static/js/2.cdc6558b.chunk.js.LICENSE.txt": "/fretboard-master-app/static/js/2.cdc6558b.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.07e8e3b3.js",
     "static/js/2.cdc6558b.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.dadeaa1b.chunk.js"
+    "static/js/main.1836b265.chunk.js"
   ]
 }
