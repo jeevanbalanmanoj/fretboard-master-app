@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4fa32dd729e06a46aac26c6b7e747c18",
+    "revision": "c35aa4b495b3d578cbae02a92a420f23",
     "url": "/fretboard-master-app/index.html"
   },
   {
-    "revision": "dd327988c652b08f4981",
+    "revision": "b324627420d5c76f4a26",
     "url": "/fretboard-master-app/static/css/main.5f361e03.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fretboard-master-app/static/js/2.cdc6558b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "dd327988c652b08f4981",
-    "url": "/fretboard-master-app/static/js/main.e5b8200f.chunk.js"
+    "revision": "b324627420d5c76f4a26",
+    "url": "/fretboard-master-app/static/js/main.43f70b72.chunk.js"
   },
   {
     "revision": "43aa320f73a179be627d",
