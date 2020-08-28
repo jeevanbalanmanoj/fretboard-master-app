@@ -7,7 +7,7 @@ function Header() {
       <h1>
         Fretboard master{" "}
         <div className="guitarImage">
-          <img style={guitarStyle} src={guitarImage} width="7%" />
+          <img style={guitarStyle} src={guitarImage} width="100px" />
         </div>
       </h1>
     </header>
@@ -18,7 +18,7 @@ const linkStyle = {
   textDecoration: "none",
 };
 const guitarStyle = {
-  padding: "10px",
+  paddingTop: "20px",
 };
 const headerStyle = {
   background: "#333",
