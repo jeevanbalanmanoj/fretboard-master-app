@@ -6,19 +6,22 @@ export class Note extends Component {
     note: "C",
     stringNo: 1,
   };
+  refresh = () => {
+    this.setState({
+      note: getRandomNote(this.props.isChromatic),
+      stringNo: randomInteger(1, 6),
+    });
+  };
   componentDidMount() {
-    setInterval(
-      () =>
-        this.setState({
-          note: getRandomNote(this.props.isChromatic),
-          stringNo: randomInteger(1, 6),
-        }),
-      5000
-    );
+    let tick = () => {
+      this.refresh();
+      setTimeout(tick, this.props.speed * 1000);
+    };
+    setTimeout(tick, this.props.speed * 1000);
   }
-  componentWillUnmount() {
+  /*componentWillUnmount() {
     clearInterval(this.interval);
-  }
+  }*/
   render() {
     return (
       <div>
@@ -68,5 +71,6 @@ const noteStyle = {
 // PropTypes
 Note.propTypes = {
   isChromatic: PropTypes.bool.isRequired,
+  speed: PropTypes.number.isRequired,
 };
 export default Note;
